@@ -1,0 +1,44 @@
+.card-container {
+  width: 400px;
+  height: 240px;
+  position: relative;
+  background-color: rgb(2, 68, 106);
+  color: #fff;
+  border-radius: 5%;
+  padding: 10px 20px;
+  border: 2px solid rgb(140, 2, 2);
+}
+
+.bank {
+  text-align: end;
+  margin: 20px;
+  color: rgb(255, 163, 114);
+}
+
+.cardNum {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(147, 139, 135);
+  margin: 20px;
+}
+
+.cardExpiry {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.cardHolder {
+  font-size: 1.6rem;
+  word-spacing: 0.2rem;
+  margin-top: 10%;
+  color: rgb(245, 116, 127);
+  text-transform: uppercase;
+}
+
+.valid-thru {
+  font-size: 0.7rem;
+  display: inline;
+  position: absolute;
+  transform: translateX(-110%) translateY(10%);
+  top: 55%;
+}
